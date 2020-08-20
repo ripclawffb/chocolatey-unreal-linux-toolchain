@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>unreal-linux-toolchain</id>
-    <version>15.0</version>
+    <version>15.8.0.1</version>
     <packageSourceUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</packageSourceUrl>
     <owners>Asif Shaikh_</owners>
     <title>unreal-linux-toolchain (Install)</title>
@@ -14,7 +14,7 @@
     <licenseUrl>https://www.unrealengine.com/en-US/get-now/games</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</docsUrl>
-    <tags>unreal-linux-toolchain admin unreal linux toolchain clang</tags>
+    <tags>unreal-linux-toolchain admin unreal linux toolchain clang cross-compiler cross-compiling cross compiler compiling</tags>
     <summary>Cross-compiling makes it possible for game developers to target Linux from Windows</summary>
     <description>
     <![CDATA[
