@@ -15,7 +15,7 @@ if($packageParameters.keys.count -gt 0) {
   $silentArgs   = '/S'
 }
 
-$url        = 'http://cdn.unrealengine.com/CrossToolchain_Linux/v15_clang-8.0.1-centos7.exe'
+$url        = 'https://cdn.unrealengine.com/CrossToolchain_Linux/v15_clang-8.0.1-centos7.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
