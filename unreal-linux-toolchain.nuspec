@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>unreal-linux-toolchain</id>
+    <version>15.0</version>
+    <packageSourceUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</packageSourceUrl>
+    <owners>Asif Shaikh_</owners>
+    <title>unreal-linux-toolchain (Install)</title>
+    <authors>Epic Games, Inc.</authors>
+    <projectUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ripclawffb/chocolatey-unreal-linux-toolchain@master/unreal-linux-toolchain.png</iconUrl>
+    <copyright>2004-2020, Epic Games, Inc.</copyright>
+    <licenseUrl>https://www.unrealengine.com/en-US/get-now/games</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</docsUrl>
+    <tags>unreal-linux-toolchain admin unreal linux toolchain clang</tags>
+    <summary>Cross-compiling makes it possible for game developers to target Linux from Windows</summary>
+    <description>
+    <![CDATA[
+Cross-compiling makes it possible for game developers to target Linux from Windows.
+At this time, cross-compiling is only supported for Windows, and Mac users currently have to
+resort to native compiling . Additionally, we support, test, and provide libraries and toolchains
+for the Linux-x86_64 platform.
+
+**Please Note**: This is an automatically updated package. If you find it is
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.
+
+## Package Specific
+
+### Package Parameters
+
+The following package parameters can be set:
+
+* directory <directory> - Custom installation path
+
+To pass parameters, use `--params "''"` (e.g. `choco install packageID [other options] --params="'/ITEM:value /ITEM2:value2 /FLAG_BOOLEAN'"`).
+
+To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.
+]]>
+    </description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
