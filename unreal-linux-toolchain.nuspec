@@ -4,7 +4,8 @@
   <metadata>
     <id>unreal-linux-toolchain</id>
     <version>15.8.0.1</version>
-    <packageSourceUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ripclawffb/chocolatey-unreal-linux-toolchain</packageSourceUrl>
+    <projectSourceUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</projectSourceUrl>
     <owners>Asif Shaikh_</owners>
     <title>unreal-linux-toolchain (Install)</title>
     <authors>Epic Games, Inc.</authors>
