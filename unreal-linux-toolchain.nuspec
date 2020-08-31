@@ -7,7 +7,7 @@
     <packageSourceUrl>https://github.com/ripclawffb/chocolatey-unreal-linux-toolchain</packageSourceUrl>
     <projectSourceUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</projectSourceUrl>
     <owners>Asif Shaikh_</owners>
-    <title>unreal-linux-toolchain (Install)</title>
+    <title>Unreal Linux Toolchain (Install)</title>
     <authors>Epic Games, Inc.</authors>
     <projectUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/ripclawffb/chocolatey-unreal-linux-toolchain@master/unreal-linux-toolchain.png</iconUrl>
