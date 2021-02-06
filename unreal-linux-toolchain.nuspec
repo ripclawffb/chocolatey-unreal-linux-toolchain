@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>unreal-linux-toolchain</id>
-    <version>16.9.0.1</version>
+    <version>17.10.0.1</version>
     <packageSourceUrl>https://github.com/ripclawffb/chocolatey-unreal-linux-toolchain</packageSourceUrl>
     <projectSourceUrl>https://docs.unrealengine.com/en-US/Platforms/Linux/GettingStarted/index.html</projectSourceUrl>
     <owners>Asif Shaikh_</owners>
