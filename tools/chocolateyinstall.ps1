@@ -15,7 +15,7 @@ if($packageParameters.keys.count -gt 0) {
   $silentArgs   = '/S'
 }
 
-$url        = 'https://cdn.unrealengine.com/CrossToolchain_Linux/v25_clang-18.1.0-rockylinux8.exe'
+$url        = 'https://cdn.unrealengine.com/CrossToolchain_Linux/v26_clang-20.1.8-rockylinux8.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -24,7 +24,7 @@ $packageArgs = @{
 
   softwareName  = 'Unreal Linux Toolchain*'
 
-  checksum      = 'c1c7798900b434502091629ada194ac38ccf8b13a94e0d81f8c464e0c87d03f7'
+  checksum      = '02dee9f48cc65c5abbc9cc429271115f1cce68ebcef632db42ba4b5c9dbe2088'
   checksumType  = 'sha256'
 
   silentArgs = $silentArgs
